@@ -7,7 +7,7 @@
 }
 
 .contenedor-cuerpo {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 83rem;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 .contenedor-copyright {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   text-align: center;
   padding: 1.25rem;
   margin-top: auto;
@@ -37,17 +37,17 @@ ul {
   padding: 0;
 }
 
-li{
-    padding: 0 0 0.5rem 0;
+li {
+  padding: 0 0 0.5rem 0;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: var(--azul-claro);
 }
 
-.espacio{
-    padding: 0 0 1rem 0;
+.espacio {
+  padding: 0 0 1rem 0;
 }
 
 .contenedor-direccion {
@@ -58,4 +58,12 @@ a {
 .contenedor-direccion p {
   display: grid;
   grid-template-rows: auto auto auto;
+}
+
+p {
+  color: var(--azul-claro);
+}
+
+.icon {
+  margin: 0 0.5rem 0 0;
 }

@@ -11,7 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
-    color: var(--negro);
+    /* color: var(--negro); */ /*(footer): estaria afectando a una parte del footer donde va la direccion*/
 }
   
 h1, h2, h3, h4, h5, h6, p {
