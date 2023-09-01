@@ -25,11 +25,11 @@ const Login = () => {
                     <form className='loginForm'>
                         <div className='formControl'>
                         <label htmlFor="email">Your email adress</label>
-                        <textarea name="email" id="email" cols="30" rows="1"></textarea>
+                        <input name="email" id="email" type='text'></input>
                         </div>
                         <div className='formControl'>
                         <label htmlFor="email">Your password</label>
-                        <textarea name="email" id="email" cols="30" rows="1"></textarea>
+                        <input name="email" id="email" type='text'></input>
                         </div>
                         <button type='submit' className='loginSubmitBtn'>
                                 Sign in

@@ -85,10 +85,10 @@ margin-top: 16px;
     margin: 24px 0;
 }
 
-.formControl textarea{
+.formControl input{
     width: 22rem;
 height: 2.5rem;
-flex-shrink: 0;
+padding: 4px;
     border-radius: 0.25rem;
 border: 1px solid #C6C6C6;
 background: #FFF;
