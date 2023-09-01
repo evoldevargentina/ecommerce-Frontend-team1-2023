@@ -3,6 +3,8 @@
     --azul: rgb(11, 111, 244, 1);
     --azul-claro: rgb(220, 234, 253, 1);
     --negro: rgb(46, 46, 46, 1);
+    --negro-transparente: rgb(173, 173, 173, 1);
+    --main-font: 'Satoshi', sans-serif;
 }
 
 * {
@@ -70,17 +72,20 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
     -webkit-text-fill-color: black !important;
 }
-  
-.form-control:focus {
+
+.formControl{
     box-shadow: none;
-    border-color: none;
-    border: none;
-    background-color: transparent;
+    outline: none;
 }
   
-.form-control.is-invalid:focus {
+.formControl input:focus,
+.formControl input:focus-visible,
+.formControl input:active {
     box-shadow: none;
     border-color: none;
+    border: 1px solid var(--azul);
+    background-color: transparent;
+    outline: none;
 }
   
 input[type=search]::-ms-clear {
