@@ -1,0 +1,43 @@
+.contenedor-footer {
+  background-color: var(--azul);
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-cuerpo {
+  background-color: blueviolet;
+  width: 83rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 1.25rem;
+}
+
+.columna {
+  text-align: start;
+}
+
+.contenedor-copyright {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 1.25rem;
+  margin-top: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
