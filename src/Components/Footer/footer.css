@@ -37,7 +37,25 @@ ul {
   padding: 0;
 }
 
+li{
+    padding: 0 0 0.5rem 0;
+}
+
 a {
   text-decoration: none;
   color: #333;
+}
+
+.espacio{
+    padding: 0 0 1rem 0;
+}
+
+.contenedor-direccion {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.contenedor-direccion p {
+  display: grid;
+  grid-template-rows: auto auto auto;
 }

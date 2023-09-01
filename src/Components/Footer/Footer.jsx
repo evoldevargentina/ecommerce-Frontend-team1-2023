@@ -8,12 +8,12 @@ const Footer = () => {
         <section className="contenedor-principal">
           <div className="columna">
             <a href="http://">
-              <h4>PLATEFORM</h4>
+              <h4 className="espacio">PLATEFORM</h4>
             </a>
           </div>
           <div className="columna">
             <a href="http://">
-              <h4>Features</h4>
+              <h4 className="espacio">Features</h4>
             </a>
             <ul>
               <li>
@@ -29,52 +29,58 @@ const Footer = () => {
           </div>
           <div className="columna">
             <a href="http://">
-              <h4>Success stories</h4>
+              <h4 className="espacio">Success stories</h4>
             </a>
             <ul>
               <li>
-                <a href="http://">Management</a>
+                <a href="http://">Avoburger</a>
               </li>
               <li>
-                <a href="http://">Communication</a>
+                <a href="http://">StarCoffe</a>
               </li>
               <li>
-                <a href="http://">Analytics</a>
+                <a href="http://">Vegancake</a>
               </li>
               <li>
-                <a href="http://">Management</a>
+                <a href="http://">Pizzadoo</a>
               </li>
               <li>
-                <a href="http://">Communication</a>
+                <a href="http://">Shakey</a>
               </li>
             </ul>
           </div>
           <div className="columna">
             <a href="http://">
-              <h4>Social Media</h4>
+              <h4 className="espacio">Social Media</h4>
             </a>
             <ul>
               <li>
-                <a href="http://">Management</a>
+                <a href="http://">Instagram</a>
               </li>
               <li>
-                <a href="http://">Communication</a>
+                <a href="http://">Facebook</a>
               </li>
               <li>
-                <a href="http://">Analytics</a>
+                <a href="http://">Youtube</a>
               </li>
             </ul>
           </div>
           <div className="columna">
             <a href="">
-              <h4>Contatc</h4>
+              <h4 className="espacio">Contatc</h4>
             </a>
             <ul>
               <li>
-                <a href="http://">Management</a>
+                <div className="contenedor-direccion">
+                <p>
+                    <span className="calle-numero">31-70 Coast Way</span>
+                    <span className="ciudad">New York, NY</span>
+                    <span className="pais">USA</span>
+                </p>
+                </div>
               </li>
               <li>
-                <a href="http://">Communication</a>
+                <a href="http://">hello@plateform.io</a>
               </li>
             </ul>
           </div>
